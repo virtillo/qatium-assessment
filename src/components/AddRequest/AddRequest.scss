@@ -1,0 +1,33 @@
+.add-request {
+  margin-bottom: 20px;
+  padding: 25px 0;
+  border: 1px solid #ccc;
+
+  form {
+    margin: 0 auto;
+    width: 400px;
+
+    div {
+      display: flex;
+      margin-bottom: 20px;
+
+      label {
+        padding-right: 10px;
+        text-align: right;
+        width: 200px;
+      }
+    }
+
+    button {
+      margin-left: 10px;
+    }
+  }
+
+  .error-message {
+    color: red;
+  }
+
+  .success-message {
+    color: green;
+  }
+}

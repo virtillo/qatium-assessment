@@ -1,0 +1,28 @@
+.requests-table {
+  color: #222222;
+  display: table;         
+  width: 100%;         
+  background-color: #eee;         
+  border: 1px solid #666666;  
+  margin-bottom: 40px;
+  border-collapse: collapse;
+
+  &__row {
+    display: table-row;
+    width: auto;
+    clear: both;
+    text-align: left;
+    border-bottom: 1px solid black;
+
+    div {
+      padding: 10px;
+      display: table-cell;
+    }
+
+    &:first-child {
+      text-align: center;
+      color: #1a1a1a;
+      font-weight: bold;
+    }
+  }
+}

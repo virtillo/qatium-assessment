@@ -1,0 +1,20 @@
+.balance-list {
+  .pos {
+    color: green;
+  }
+
+  .neg {
+    color: red;
+  }
+}
+
+.settlement-list {
+  text-align: left;
+  margin: 0 auto;
+  width: 350px;
+  margin-top: 20px;
+
+  > li {
+    list-style: none;;
+  }
+}

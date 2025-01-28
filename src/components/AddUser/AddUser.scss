@@ -1,0 +1,26 @@
+.add-user{
+  margin-bottom: 20px;
+  padding: 25px 0;
+  border: 1px solid #ccc;
+
+  div {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 400px;
+
+    label {
+      padding-right: 10px;
+      text-align: right;
+      width: 200px;
+    }
+  }
+
+  button {
+    margin-left: 10px;
+  }
+
+  .success-message {
+    color: green;
+  }
+}
