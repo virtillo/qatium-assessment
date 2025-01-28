@@ -55,10 +55,10 @@ npm install
 npm run dev
 
 # build for production
-yarn run build
+npm run build
 
 # run all tests
-yarn run test
+npm run test
 
 ```
 
